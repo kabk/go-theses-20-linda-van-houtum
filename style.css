@@ -1,0 +1,298 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin:0;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+@font-face {
+  font-family: Hadriano;
+  src: url(font/HadrianoLightRegular.otf);
+}
+
+@font-face {
+  font-family: Galliard;
+  src: url(font/Galliard-Italic.ttf);
+}
+
+
+
+@font-face {
+  font-family: Rel;
+  src: url(font/Relative-11Pitch.otf);
+}
+
+#zero-dropdown{
+  height: 100%;
+}
+
+#zero-content {
+  display: none;
+}
+
+
+#one-dropdown{
+  height: 100%;
+}
+
+#one-content{
+  display: none;
+}
+
+#two-dropdown{
+  height: 100%;
+}
+
+#two-content{
+  display: none;
+}
+
+#three-dropdown{
+  height: 100%;
+}
+
+#three-content{
+  display: none;
+}
+
+#four-dropdown{
+  height: 100%;
+}
+
+#four-content{
+  display: none;
+}
+
+#five-dropdown{
+  height: 100%;
+}
+
+#five-content{
+  display: none;
+}
+
+#six-dropdown{
+  height: 100%;
+}
+
+#six-content{
+  display: none;
+}
+
+#seven-dropdown{
+  height: 100%;
+}
+
+#seven-content{
+  display: none;
+}
+
+
+
+.image-content{
+  margin-left:20px;
+  width: 360px;
+  background-color: white;
+}
+
+
+@media only screen and (min-width: 800px) {
+  #img1 {
+    background-color: lightblue;
+  }
+}
+
+
+#img1{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  float:right;
+  position: fixed;
+  right:-100%;
+}
+
+#open1{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+}
+
+#close1{
+  background-color: white;
+  height: 30px;
+  margin:20px;
+  width: 30px;
+  cursor:pointer;
+}
+
+
+#img2{
+  background-color: black;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open2{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+}
+
+#close2{
+  background-color: white;
+  height: 30px;
+  margin:20px;
+  width: 30px;
+  cursor:pointer;
+}
+
+
+
+
+.container {
+  padding-top:20px;
+  padding-left:20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+}
+
+.title{
+/*  margin-top:10px;*/
+  margin-right: 10vw;
+  height: 100%;
+}
+ 
+
+.paragraph{
+  margin-right: 10vw;
+}
+
+
+.calculation p{
+  margin-left:40px;
+  font-family: Rel;
+  margin-right: 10vw;
+  font-size:15px;
+}
+
+.calculation sup{
+  background-color: transparent !important;
+  color:black !important;
+  font-family: Rel;
+  margin-right: 10vw;
+  font-size:15px;
+  border-bottom: none!important;
+}
+
+
+.notes p{
+  margin-left:40px;
+  font-family: Rel;
+  margin-right: 10vw;
+  font-size:14px;
+  display: inline; 
+  background: black;
+  color:white;
+  text-indent: 0px;
+  line-height: -50px;
+}
+
+.notes{
+  margin-right: 10vw;
+  height: 100%;
+  margin-left:60px;
+  text-indent: -40px;
+}
+
+
+
+.paragraph sup{
+  stroke:2px;
+  font-size:12px;
+  color:white;
+  margin-bottom: -3px;
+  background-color: black;
+  border-bottom: 8px solid black;
+  line-height:10px !important;
+}
+
+p{
+  text-indent: 40px;
+  font-family: Hadriano;
+  font-size: 20px;
+  line-height: 22.5px;
+  -webkit-font-smoothing: antialiased;
+  hyphens: auto;
+  -webkit-hyphens:auto;
+  -ms-hyphens:auto;
+  text-align: justify;
+  text-justify: inter-word;
+  overflow-wrap:break-word;
+}
+
+i{
+  font-family: Galliard; 
+
+}
+
+
+h1{
+  font-family: Hadriano; 
+  font-size: 25px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2{
+  font-family: Hadriano; 
+  font-size: 25px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  text-indent: 40px
+}
+
+h3{
+  font-family: Hadriano; 
+  font-size: 25px;
+  text-indent: 80px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h4{
+  font-family:Galliard;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 25px;
+  text-indent: 40px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.blink {
+  width: 6px;
+  height: 20px;
+  background-color: black;
+  float:left;
+  animation: blinking 1s steps(5, start) infinite;
+  -webkit-animation: blinking 1s steps(5, start) infinite;
+}
+
+@keyframes blinking {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blinking{
+  to {
+    visibility: hidden;
+  }
+}
