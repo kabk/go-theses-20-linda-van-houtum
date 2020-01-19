@@ -167,7 +167,8 @@
 
 .title{
 /*  margin-top:10px;*/
-  margin-right: 10vw;
+  margin-top:5px;
+  margin-right: 5vw;
   height: 100%;
 }
  
@@ -226,15 +227,16 @@
 }
 
 p{
-  text-indent: 40px;
+/*  margin-left:30px;*/
+  text-indent: 30px;
   font-family: Hadriano;
-  font-size: 20px;
-  line-height: 22.5px;
+  font-size: 18px;
+  line-height: 20.5px;
   -webkit-font-smoothing: antialiased;
   hyphens: auto;
   -webkit-hyphens:auto;
   -ms-hyphens:auto;
-  text-align: justify;
+/*  text-align: justify;*/
   text-justify: inter-word;
   overflow-wrap:break-word;
 }
@@ -247,23 +249,23 @@ i{
 
 h1{
   font-family: Hadriano; 
-  font-size: 25px;
+  font-size: 28px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
 
 h2{
   font-family: Hadriano; 
-  font-size: 25px;
+  font-size: 28px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
-  text-indent: 40px
+  margin-left: 30px
 }
 
 h3{
   font-family: Hadriano; 
-  font-size: 25px;
-  text-indent: 80px;
+  font-size: 28px;
+  margin-left: 30px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
@@ -272,8 +274,8 @@ h4{
   font-family:Galliard;
   font-style: italic;
   font-weight: normal;
-  font-size: 25px;
-  text-indent: 40px;
+  font-size: 28px;
+  margin-left:30px;
   -webkit-font-smoothing: antialiased;
 }
 
