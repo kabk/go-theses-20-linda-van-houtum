@@ -91,11 +91,14 @@
 }
 
 
+img{
+  max-width:100%;
+}
 
 .image-content{
   margin-left:20px;
-  width: 360px;
-  background-color: white;
+  width: 340px;
+/*  background-color: white;*/
 }
 
 
@@ -107,7 +110,7 @@
 
 
 #img1{
-  background-color: black;
+  margin-top: 20px;
   height: 100%;
   width: 100%;
   float:right;
@@ -119,19 +122,15 @@
   height: 10vh;
   width: 50px;
   cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
 }
 
-#close1{
-  background-color: white;
-  height: 30px;
-  margin:20px;
-  width: 30px;
-  cursor:pointer;
-}
+
 
 
 #img2{
-  background-color: black;
+  margin-top: 20px;
   height: 100%;
   width: 100vw;
   float:right;
@@ -143,17 +142,351 @@
   height: 10vh;
   width: 50px;
   cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
 }
 
-#close2{
-  background-color: white;
-  height: 30px;
-  margin:20px;
-  width: 30px;
+
+#img3{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open3{
+  height: 10vh;
+  width: 50px;
   cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
 }
 
 
+
+#img4{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open4{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+
+#img5{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open5{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img6{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open6{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img7{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open7{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img8{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img9{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open9{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img10{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open10{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img11{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open11{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img12{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open12{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img13{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open13{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+
+#img14{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+
+#open14{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+
+#img15{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+#open15{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img16{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+#open16{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img17{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+#open17{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+#img18{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+#open18{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+
+#img19{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+#open19{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+
+#img20{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+#open20{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+
+#img21{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+#open21{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
+
+
+#img22{
+  margin-top: 20px;
+  height: 100%;
+  width: 100vw;
+  float:right;
+  position: fixed;
+  right:-100vw;
+}
+#open22{
+  height: 10vh;
+  width: 50px;
+  cursor:pointer;
+  border-bottom: 1px solid black;
+  font-family: Galliard;
+}
 
 
 .container {
