@@ -576,11 +576,15 @@ p{
 
 i{
   font-family: Galliard; 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 17px;
 
 }
 
 h5{
-    font-family: Hadriano; 
+  font-family: Hadriano; 
   font-size: 32px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -594,7 +598,7 @@ h1{
 }
 
 h2{
-  font-family: Hadriano; 
+  font-family:Galliard;
   font-size: 28px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -611,7 +615,7 @@ h3{
 
 h4{
   font-family:Galliard;
-  font-style: italic;
+  font-style: normal;
   font-weight: normal;
   font-size: 28px;
   margin-left:30px;
