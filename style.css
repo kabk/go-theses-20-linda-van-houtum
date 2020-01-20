@@ -499,6 +499,7 @@ img{
 }
 
 .title{
+  background-color: white;
 /*  margin-top:10px;*/
   margin-top:5px;
   margin-right: 5vw;
@@ -584,10 +585,11 @@ i{
 }
 
 h5{
-  font-family: Hadriano; 
-  font-size: 32px;
+  font-family: Galliard; 
+  font-size: 31px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
+  border-bottom: black 1px solid;
 }
 
 h1{
